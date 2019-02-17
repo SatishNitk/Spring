@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="dependent_class" class="com.nt.beans.Dependent_class"/>
+<bean id="calc" class="com.nt.beans.MyApp">
+<constructor-arg ref="dependent_class"/>
+<constructor-arg type="String" value="SATISH KUMAR GUPTA"/>
+</bean>
+
+</beans>
