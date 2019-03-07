@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id ="st" class = "com.nt.beans.Student">
+<constructor-arg value="satish" index = "0"/>
+<constructor-arg value="1000" index="1"/>
+<constructor-arg value="3000" index="2"/>
+<constructor-arg value="87878" index="3"/>
+</bean>
+
+</beans>
